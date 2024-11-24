@@ -24,6 +24,43 @@ nav a {
   text-decoration: none;
 }
 
+.product {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 220px; 
+  text-align: center;
+  box-shadow: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin: 20px;
+  height: 350px; 
+}
+
+.product img {
+  width: 200px;   
+  height: 200px;   
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px; 
+}
+
+.product h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product p {
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
 footer {
   background-color: #333;
   color: white;
@@ -32,7 +69,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin-top: 20px; /* Eğer yukarıdaki elementlerden çok yakınsa, arayı artırabilirsiniz */
+  margin-top: 20px; 
 }
 
 
