@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function NAvbar() {
+function Navbar() {
     return (
         <nav>
             <ul>
