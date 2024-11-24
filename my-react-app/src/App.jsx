@@ -1,13 +1,12 @@
-import Profile from "./Components/Profile.jsx";
+import Gallery from "./Components/Gallery.jsx";
 
 function App() {
   return(
-    <>
-   <Profile /> 
-   <Profile /> 
-   <Profile /> 
-    </>
-  )
+    <div>
+   <h1>Gallery</h1>
+   <Gallery />
+   </div>
+  );
 }
 
-export default App
+export default App;
