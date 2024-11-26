@@ -29,4 +29,4 @@ return (
   );
 }
 
-export default ColorPickerPage;
+export default ColorPickPage;

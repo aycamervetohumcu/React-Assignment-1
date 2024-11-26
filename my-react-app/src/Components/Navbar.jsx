@@ -8,6 +8,7 @@ function Navbar() {
                 <li><Link to="/gallery">Gallery</Link></li>
                 <li><Link to="/counter">Counter</Link></li>
                 <li><Link to="/about">About</Link></li>
+                <li><Link to="/color-picker">Color Picker</Link></li>
             </ul>
         </nav>
     );
