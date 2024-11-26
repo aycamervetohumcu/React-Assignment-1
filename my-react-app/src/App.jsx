@@ -5,6 +5,7 @@ import Home from './pages/home';
 import CounterPage from './pages/CounterPage';
 import About from './pages/About';
 import Gallery from "./Components/Gallery.jsx";
+import ColorPickPAge from "./pages/ColorPickPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/counter" element={<CounterPage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/color-picker" element={<ColorPickerPage />} />
       </Routes>
       <Footer />
     </Router>
