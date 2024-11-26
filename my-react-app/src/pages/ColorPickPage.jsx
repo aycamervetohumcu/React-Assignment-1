@@ -1,18 +1,23 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ColorContext } from "../contexts/ColorContext";
 
-function ColorPickPage() {
-const [selectedColor, setSelectedColor] = useState("#000000");
+function ColorPickerPage() {
+  const [selectedColor, setSelectedColor] = useState("#000000");
+  const { setNavbarColor } = useContext(ColorContext);
 
-const handleColorChange = (event) => {
-    setSelectedColor(event.target.value);
-};
-return (
+  const handleColorChange = (event) => {
+    const newColor = event.target.value;
+    setSelectedColor(newColor);
+    setNavbarColor(newColor); // Update Navbar color dynamically
+  };
+
+  return (
     <div
       style={{
         textAlign: "center",
         padding: "2rem",
         backgroundColor: selectedColor,
-        color: selectedColor === "#000000" ? "#FFFFFF" : "#000000",
+        color: selectedColor === "#333" ? "#FFFFFF" : "#333",
         minHeight: "100vh",
       }}
     >
@@ -29,4 +34,4 @@ return (
   );
 }
 
-export default ColorPickPage;
+export default ColorPickerPage;
