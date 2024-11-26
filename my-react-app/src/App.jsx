@@ -16,7 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/counter" element={<CounterPage />} />
         <Route path="/about" element={<About />} />
-        <Route path="/color-picker" element={<ColorPickerPage />} />
+        <Route path="/color-picker" element={<colorPickPage />} />
       </Routes>
       <Footer />
     </Router>
