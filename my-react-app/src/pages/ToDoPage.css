@@ -1,0 +1,56 @@
+.todo-page {
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-container {
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    width: 250px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem;
+    background-color: #0d470f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .task-actions button {
+    margin-left: 5px;
+  }
+  
+  .task-actions button:hover {
+    background-color: #007bff;
+  }
+  

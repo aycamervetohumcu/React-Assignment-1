@@ -7,6 +7,7 @@ import About from './pages/About';
 import Gallery from './Components/Gallery';
 import ColorPickPage from './pages/ColorPickPage';
 import { ColorProvider } from './contexts/ColorContext';
+import ToDoPage from "./pages/ToDoPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/counter" element={<CounterPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/color-picker" element={<ColorPickPage />} />
+          <Route path="/to-do" element={<ToDoPage />} />
         </Routes>
         <Footer />
       </Router>
